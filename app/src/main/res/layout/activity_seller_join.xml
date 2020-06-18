@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerJoinActivity">
+    
+    <ImageView
+        android:id="@+id/img_seller"
+
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/sellers"
+        android:scaleType="centerCrop"
+        
+        />
+    <TextView
+        android:id="@+id/title_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte vendeur"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_below="@id/img_seller"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+
+        />
+    
+    <EditText
+        android:id="@+id/name_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom Du Vendeur"
+        android:layout_below="@+id/title_seller"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs2"
+        android:padding="14dp"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/phone_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numéro de téléphone"
+        android:layout_below="@+id/name_seller"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs2"
+        android:padding="14dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/password_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:layout_below="@+id/mail_seller"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs2"
+        android:padding="14dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/mail_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_below="@+id/phone_seller"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs2"
+        android:padding="14dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/address_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Addresse de magasin "
+        android:layout_below="@+id/password_seller"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs2"
+        android:padding="14dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/join_seller_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte"
+        android:textColor="@android:color/black"
+        android:background="@drawable/buttons3"
+        android:layout_below="@id/address_seller"
+        android:layout_margin="30dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/seller_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vous avez dèja un compte ?\n Connectez-vous "
+        android:textColor="@android:color/black"
+        android:background="@drawable/buttons3"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+</RelativeLayout>

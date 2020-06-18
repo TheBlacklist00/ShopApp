@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyers.JoinActivity"
+    android:background="@drawable/register">
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/shop"
+        />
+
+    <EditText
+        android:id="@+id/join_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_logo"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Nom d'utilisateur"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/join_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/join_username_input"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/join_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/join_password_input"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Nom et prénom de l'utilisateur"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="Créer un nouveau compte"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/join_name_input"
+        android:layout_marginTop="15dp"
+        />
+
+</RelativeLayout>

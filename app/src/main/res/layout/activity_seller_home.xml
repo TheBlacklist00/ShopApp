@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize">
+
+    <RelativeLayout
+        android:id="@+id/relative8_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentTop="true"
+        >
+        <TextView
+            android:id="@+id/new_order_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vos Produits postés"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textAllCaps="true"
+            />
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/seller_approve_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative8_layout"
+        android:layout_above="@+id/nav_view"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

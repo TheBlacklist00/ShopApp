@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/welcome">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/shop"
+        />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Recherchez , Découvrez , Trouvez et Achetez ce que vous désirez en ligne "
+        android:textColor="@color/colorAccent"
+        android:textSize="28dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/join_btn"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttons"
+        android:padding="8dp"
+        android:text="Vous avez dèja un compte ? \nConnectez-vous "
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+
+<Button
+    android:id="@+id/join_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/app_slogan"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/input_design"
+    android:padding="8dp"
+    android:text="Vous n'avez encore un compte ?\n Créez-en un"
+    android:textColor="@android:color/white"
+    android:textSize="15dp"
+    android:layout_marginTop="70dp"
+    />
+
+
+    <Button
+        android:id="@+id/seller_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:text="êtes-vous un vendeur ?"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

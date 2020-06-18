@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "50729639308",
+    "firebase_url": "https://sellingapp-a394a.firebaseio.com",
+    "project_id": "sellingapp-a394a",
+    "storage_bucket": "sellingapp-a394a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50729639308:android:f2b303dccd603b2a790aa9",
+        "android_client_info": {
+          "package_name": "com.example.shopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50729639308-j04k9mqo1teu267dmblat8r8vdjs5a75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopapp",
+            "certificate_hash": "e479798151ab2d801bdc4e1a591e7bf85aff5117"
+          }
+        },
+        {
+          "client_id": "50729639308-ots6k03ko4t97pqmhscfskgin9s5rlbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF8CGuKj-0fFJgPJuwuhSHi34gceOFTak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50729639308-ots6k03ko4t97pqmhscfskgin9s5rlbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
