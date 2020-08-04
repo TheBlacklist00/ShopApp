@@ -101,7 +101,7 @@ private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemR
                     protected void onBindViewHolder(@NonNull SellerProductViewHolder holder, int position, @NonNull final Products model) {
                         holder.txtProductName.setText(String.valueOf(model.getPname()));
                         holder.txtProductDescription.setText(String.valueOf(model.getDescription()));
-                        holder.txtProductPrice.setText("Prix :"+ model.getPrice() + "DA");
+                        holder.txtProductPrice.setText("Prix :"+ model.getPrice() + "$");
                         if (model.getProductState().equals("Approved"))
                         {holder.txtProductStatus.setText("Statut du produit :"+ " "+"approuvé");
                         }

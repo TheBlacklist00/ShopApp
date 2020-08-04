@@ -67,7 +67,7 @@
         android:id="@+id/confirm_order"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Confirmer la commande"
+        android:text="Confirmer votre commande\n et passer au paiement"
         android:background="@drawable/buttons"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"

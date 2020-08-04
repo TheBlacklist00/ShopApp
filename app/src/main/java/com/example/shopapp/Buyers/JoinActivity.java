@@ -57,7 +57,7 @@ public class JoinActivity extends AppCompatActivity {
 
         if(TextUtils.isEmpty(username))
         {
-            Toast.makeText(this,"Veuillez entrer votre email",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Veuillez entrer votre nom d'utilisateur",Toast.LENGTH_SHORT).show();
         }
         else if(TextUtils.isEmpty(pass))
         {

@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.shopapp.Prevalent.Prevalent;
 import com.example.shopapp.R;
+import com.example.shopapp.payement.PrePaymentActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
@@ -80,7 +81,7 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity
         SimpleDateFormat currentDate = new SimpleDateFormat("MMM dd, yyyy");
         date = currentDate.format(calForDate.getTime());
         SimpleDateFormat currentTime = new SimpleDateFormat("HH:mm:ss a ");
-        time = currentDate.format(calForDate.getTime());
+        time = currentTime.format(calForDate.getTime());
 
         final DatabaseReference ordersRef = FirebaseDatabase.getInstance().getReference().child("Orders")
                 .child(Prevalent.currentOnlineUser.getUsername());
@@ -107,9 +108,9 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity
                              public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful())
                                 {
-                                    Toast.makeText(ConfirmFinalOrderActivity.this, "Votre commande a bien été soumise avec succès", Toast.LENGTH_SHORT).show();
 
-                                    Intent i = new Intent(ConfirmFinalOrderActivity.this,HomeActivity.class);
+
+                                    Intent i = new Intent(ConfirmFinalOrderActivity.this, PrePaymentActivity.class);
                                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                     startActivity(i);
                                     finish();
