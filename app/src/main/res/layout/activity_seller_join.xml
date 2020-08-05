@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Sellers.SellerJoinActivity">
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Sellers.SellerJoinActivity">
 
-    <RelativeLayout
+        <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -16,7 +16,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         tools:context=".Sellers.SellerJoinActivity">
 
-    <ImageView
+        <ImageView
         android:id="@+id/img_seller"
 
         android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
 
 
 
-    <TextView
+        <TextView
         android:id="@+id/title_seller"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
 
         />
 
-    <EditText
+        <EditText
         android:id="@+id/name_seller"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         android:textColorHint="@android:color/black"
         android:textStyle="bold"
         />
-    <EditText
+        <EditText
         android:id="@+id/phone_seller"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
         android:textColorHint="@android:color/black"
         android:textStyle="bold"
         />
-    <EditText
+        <EditText
         android:id="@+id/password_seller"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
         android:textColorHint="@android:color/black"
         android:textStyle="bold"
         />
-    <EditText
+        <EditText
         android:id="@+id/mail_seller"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
         android:textStyle="bold"
         />
 
-    <EditText
+        <EditText
         android:id="@+id/address_seller"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -127,7 +127,8 @@
         android:textColorHint="@android:color/black"
         android:textStyle="bold"
         />
-    <Button
+
+        <Button
         android:id="@+id/join_seller_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -141,7 +142,7 @@
         android:gravity="center"
         />
 
-    <Button
+        <Button
         android:id="@+id/seller_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -155,7 +156,8 @@
         android:textSize="18dp"
         android:textStyle="bold"
         android:gravity="center"
-
         />
-    </RelativeLayout>
-</ScrollView>
+
+        </RelativeLayout>
+
+        </ScrollView>
