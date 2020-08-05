@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Sellers.SellerJoinActivity">
-    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Sellers.SellerJoinActivity">
+
     <ImageView
         android:id="@+id/img_seller"
 
@@ -13,8 +23,10 @@
         android:layout_height="200dp"
         android:src="@drawable/sellers"
         android:scaleType="centerCrop"
-        
         />
+
+
+
     <TextView
         android:id="@+id/title_seller"
         android:layout_width="match_parent"
@@ -24,11 +36,11 @@
         android:textSize="28dp"
         android:textStyle="bold"
         android:layout_below="@id/img_seller"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:textColor="@android:color/holo_blue_dark"
 
         />
-    
+
     <EditText
         android:id="@+id/name_seller"
         android:layout_width="match_parent"
@@ -39,7 +51,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/inputs2"
         android:padding="14dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         android:inputType="text"
         android:textSize="16dp"
         android:textColor="@android:color/black"
@@ -56,7 +68,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/inputs2"
         android:padding="14dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:inputType="number"
         android:textSize="16dp"
         android:textColor="@android:color/black"
@@ -73,7 +85,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/inputs2"
         android:padding="14dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:inputType="textPassword"
         android:textSize="16dp"
         android:textColor="@android:color/black"
@@ -90,7 +102,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/inputs2"
         android:padding="14dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:inputType="textEmailAddress"
         android:textSize="16dp"
         android:textColor="@android:color/black"
@@ -108,7 +120,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/inputs2"
         android:padding="14dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:inputType="text"
         android:textSize="16dp"
         android:textColor="@android:color/black"
@@ -136,10 +148,14 @@
         android:text="Vous avez dèja un compte ?\n Connectez-vous "
         android:textColor="@android:color/black"
         android:background="@drawable/buttons3"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="30dp"
+        android:layout_below="@+id/join_seller_button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="18dp"
         android:textSize="18dp"
         android:textStyle="bold"
         android:gravity="center"
+
         />
-</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
