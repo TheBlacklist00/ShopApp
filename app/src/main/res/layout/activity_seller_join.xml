@@ -7,7 +7,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Sellers.SellerJoinActivity">
-
         <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,18 +14,13 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         tools:context=".Sellers.SellerJoinActivity">
-
         <ImageView
         android:id="@+id/img_seller"
-
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:src="@drawable/sellers"
         android:scaleType="centerCrop"
         />
-
-
-
         <TextView
         android:id="@+id/title_seller"
         android:layout_width="match_parent"
@@ -38,9 +32,7 @@
         android:layout_below="@id/img_seller"
         android:layout_marginTop="25dp"
         android:textColor="@android:color/holo_blue_dark"
-
         />
-
         <EditText
         android:id="@+id/name_seller"
         android:layout_width="match_parent"
@@ -109,7 +101,6 @@
         android:textColorHint="@android:color/black"
         android:textStyle="bold"
         />
-
         <EditText
         android:id="@+id/address_seller"
         android:layout_width="match_parent"
@@ -127,7 +118,6 @@
         android:textColorHint="@android:color/black"
         android:textStyle="bold"
         />
-
         <Button
         android:id="@+id/join_seller_button"
         android:layout_width="match_parent"
@@ -141,7 +131,6 @@
         android:textStyle="bold"
         android:gravity="center"
         />
-
         <Button
         android:id="@+id/seller_login"
         android:layout_width="match_parent"
@@ -157,7 +146,5 @@
         android:textStyle="bold"
         android:gravity="center"
         />
-
         </RelativeLayout>
-
         </ScrollView>
