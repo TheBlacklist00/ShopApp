@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="20dp"
-        android:background="@drawable/buttons"
+        android:background="@drawable/buttons4"
         android:text="Entretenir les produits"
         android:textColor="@android:color/white"
         android:textSize="20dp"
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="20dp"
-        android:background="@drawable/buttons"
+        android:background="@drawable/buttons4"
 
         android:text="Vérifiez les nouvelles commandes"
         android:textColor="@android:color/white"
