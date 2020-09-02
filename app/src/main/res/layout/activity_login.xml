@@ -11,12 +11,12 @@
     <ImageView
         android:id="@+id/login_logo"
         android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:foregroundGravity="center"
 
-        android:src="@drawable/shop"
+        android:src="@drawable/LogoMakr"
         />
     <EditText
         android:id="@+id/login_username_input"

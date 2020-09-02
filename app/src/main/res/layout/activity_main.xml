@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/welcome">
+    android:background="@drawable/main">
 
     <ImageView
         android:id="@+id/app_logo"
         android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="60dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:foregroundGravity="center"
-        android:src="@drawable/shop"
+        android:src="@drawable/LogoMakr"
         />
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:text="Recherchez , Découvrez , Trouvez et Achetez ce que vous désirez en ligne "
-        android:textColor="#1A3B7D"
+        android:textColor="#F8E795"
         android:textSize="28dp"
         android:textStyle="bold|italic"
         android:textAlignment="center"

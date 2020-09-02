@@ -13,7 +13,8 @@
         android:textSize="28dp"
         android:layout_centerInParent="true"
         android:textAllCaps="true"
-        android:textColor="@android:color/black"/>
+        android:textColor="@android:color/black"
+        android:background="@drawable/input_design"/>
     <Button
         android:id="@+id/payement"
         android:layout_width="match_parent"
