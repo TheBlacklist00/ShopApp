@@ -14,7 +14,7 @@
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:foregroundGravity="center"
-        android:src="@drawable/LogoMakr"
+        android:src="@drawable/logomakr"
         />
 
     <TextView

@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:foregroundGravity="center"
 
-        android:src="@drawable/LogoMakr"
+        android:src="@drawable/logomakr"
         />
     <EditText
         android:id="@+id/login_username_input"
