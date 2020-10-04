@@ -76,7 +76,7 @@ public class AdminUserProductsActivity extends AppCompatActivity {
 
                 holder.txtProductQuantity.setText("Quantité :"+model.getQuantity());
 
-                holder.txtProductPrice.setText("Prix unitaire :"+model.getPrice()+"$");
+                holder.txtProductPrice.setText("Prix unitaire :"+model.getPrice()+"DA");
 
                 holder.txtProductName.setText(model.getPname());
 
