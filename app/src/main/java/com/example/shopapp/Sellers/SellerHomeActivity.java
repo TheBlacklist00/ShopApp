@@ -101,13 +101,13 @@ private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemR
                     protected void onBindViewHolder(@NonNull SellerProductViewHolder holder, int position, @NonNull final Products model) {
                         holder.txtProductName.setText(String.valueOf(model.getPname()));
                         holder.txtProductDescription.setText(String.valueOf(model.getDescription()));
-                        holder.txtProductPrice.setText("Prix :"+ model.getPrice() + "DA");
+                        holder.txtProductPrice.setText("Prix :" + model.getPrice() + "DA");
                         if (model.getProductState().equals("Approved"))
-                        {holder.txtProductStatus.setText("Statut du produit :"+ " "+"approuvé");
+                        {holder.txtProductStatus.setText("Statut du produit :" + " " + "approuvé");
                         }
                         else
                         {
-                            holder.txtProductStatus.setText("Statut du produit :"+" "+"ce produit n'a pas encore été approuvé");
+                            holder.txtProductStatus.setText("Statut du produit :" + " " + "ce produit n'a pas encore été approuvé");
                         }
                         Picasso.get().load(model.getImage()).into(holder.imageView);
 
