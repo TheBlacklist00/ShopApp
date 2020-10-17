@@ -56,7 +56,7 @@ private DatabaseReference unverifiedRef;
                     protected void onBindViewHolder(@NonNull ProductViewHolder holder, int position, @NonNull final Products model) {
                         holder.txtProductName.setText(String.valueOf(model.getPname()));
                         holder.txtProductDescription.setText(String.valueOf(model.getDescription()));
-                        holder.txtProductPrice.setText("Prix :"+ model.getPrice() + "$");
+                        holder.txtProductPrice.setText("Prix :"+ model.getPrice() + "DA");
                         Picasso.get().load(model.getImage()).into(holder.imageView);
 
                        holder.itemView.setOnClickListener(new View.OnClickListener() {

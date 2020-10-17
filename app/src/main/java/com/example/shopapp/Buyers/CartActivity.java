@@ -83,7 +83,7 @@ final DatabaseReference cartListRef = FirebaseDatabase .getInstance().getReferen
             protected void onBindViewHolder(@NonNull CartViewHolder holder, int position, @NonNull final Cart model)
             {
                         holder.txtProductQuantity.setText("Quantité :"+model.getQuantity());
-                    holder.txtProductPrice.setText("Prix unitaire :"+model.getPrice()+"$");
+                    holder.txtProductPrice.setText("Prix unitaire :"+model.getPrice()+"DA");
                     holder.txtProductName.setText(model.getPname());
 
                 int oneTypeProductTPrice=(Integer.parseInt(model.getPrice().replaceAll("\\D+",""))) * Integer.parseInt(model.getQuantity());
